@@ -1,0 +1,2 @@
+A Concrete Solutions é uma empresa inovadora que cria produtos digitais. 
+Trabalho na CS como arquiteto de soluções, automatizando o deploy de projetos de backend e mobile, seja em ambiente de desenvolvimento ou na cloud Amazon.
