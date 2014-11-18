@@ -236,6 +236,8 @@ body {
 	padding-top: 130px;
 }
 
+/*
+
 @media (max-width: 991px) {
 	#slide-1 {
 		background-position: -70% 0, 170% 0;
@@ -247,6 +249,8 @@ body {
 		background-image: none;
 	}
 }
+
+*/
 
 	#home-row-1,
 	#home-row-2 {
