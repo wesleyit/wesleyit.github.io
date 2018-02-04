@@ -1,1 +1,0 @@
-Fui o primeiro administrador de redes Linux/Unix da Centauro, participei da migração do datacenter de MG para SP. Implementei várias ferramentas de controle e automatização de tarefas e ambiente. Desenvolvi uma distribuição Linux que foi utilizada em todas as lojas da rede.

@@ -1,1 +1,0 @@
-Fui líder da área de administração de redes, gerenciando os serviços de infraestrutura do site na AWS e em datacenters. Trabalhei na migração para a plataforma ATG e na subida dos sistemas WMS Sythex, Gerpag, Gerest e do site By Tennis.

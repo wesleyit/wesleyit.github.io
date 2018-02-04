@@ -1,1 +1,0 @@
-A Asyst Sudamérica é uma empresa de serviços de TI com clientes de grande porte, como Kraft, Pepsico e Suzano Celulose e Papel. Trabalhei no CARAS (Centro de Apoio Remoto Asyst Sudamérica), que é a "equipe de elite" de infraestrutura, atendendo o último nível de chamados técnicos. Entre meus principais projetos, implementei um sistema de monitoramento completo na Suzano C.P.

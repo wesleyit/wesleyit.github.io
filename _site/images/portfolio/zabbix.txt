@@ -1,1 +1,0 @@
-Durante 18 meses trabalhei como consultor autônomo. Neste período desenvolvi produtos em parceria com a empresa EMF. EMF-Gateway: um firewall completo com VPNs e auto-failover. Cockpit: um sistema de monitoramento baseado no Zabbix com foco nas métricas do negócio. Estes produtos foram implementados em mais de 15 lojas de diferentes clientes, em várias cidades.

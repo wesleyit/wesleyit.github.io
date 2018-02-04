@@ -1,1 +1,0 @@
-A Credigy é um braço do NBC - National Bank of Canada, na área de serviços financeiros. Fui responsável pela criação de uma distribuição Linux otimizada para mini-PCs e gerenciei todos os serviços baseados em Linux/Unix.
