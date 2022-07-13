@@ -5,7 +5,7 @@ description: >-
     aplicativo de celular? Criptografar dados em trânsito é essencial para manter
     a privacidade e integridade dos dados, mas os usuários geralmente não pensam
     neste tipo de detalhes. Vamos aprender um pouco mais sobre o assunto?
-image_url: /assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/mob-crypt.png
+image_url: /assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/mob-crypt.png
 date: 2016-01-11 23:00:00 -0300
 layout: blogpage
 lang: pt_BR
@@ -28,7 +28,7 @@ credibilidade às comunicações web.
 Sempre nos disseram, por exemplo, que era uma boa prática ter o "cadeado"
 na janela do navegador, indicando uma conexão HTTPS.
 
-![Cadeado HTTPS](/assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/cadeado.png ) 
+![Cadeado HTTPS](/assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/cadeado.png ) 
 
 Só que a evolução não parou aí: os desktops foram quase que totalmente
 substituídos pelos smartphones e tablets em tarefas de comunicação.
@@ -48,7 +48,7 @@ das empresas deste porte, há uma sala com equipamentos de
 informática e um analista responsável pelo suporte.
 O analista mantém um desenho da rede para facilitar a administração:
 
-![Mapa da Rede](/assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/mapa-rede.png) 
+![Mapa da Rede](/assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/mapa-rede.png) 
 
 Como é de praxe, nossa empresa de exemplo 
 mantém um firewall caseiro muito rudimentar,
@@ -82,7 +82,7 @@ dispositivo Android ou iOS nesta rede:
 
 Resultado:
 
-![Leases](/assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/leases.png) 
+![Leases](/assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/leases.png) 
 
 Agora que já escolhemos o IP do alvo, utilizaremos o comando `tcpdump`, 
 que captura todo o tráfego que passa pelo servidor. 
@@ -92,7 +92,7 @@ Para não gerar muito tráfego, utilizaremos o IP do celular alvo como filtro:
 
 Resultado:
 
-![Tcpdump](/assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/tcpdump.png) 
+![Tcpdump](/assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/tcpdump.png) 
 
 Lembrando que 10.200.1.14 é o IP do telefone alvo.
 A opção `-i` especifica a placa de rede utilizada e a opção `-A` decodifica
@@ -108,7 +108,7 @@ os conhecimentos dos hackers).
 
 Vejamos como fica o arquivo capturado quando utilizamos o Facebook:
 
-![Facebook](/assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/facebook.png) 
+![Facebook](/assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/facebook.png) 
 
 Fica claro que o Facebook utiliza criptografia na comunicação por meio
 do seu aplicativo. Temos duas evidências disso:
@@ -121,7 +121,7 @@ vamos utilizar o app de uma empresa de planos de saúde,
 disponível para Android na Play store.
 (aplicativo baixado em janeiro de 2016)
 
-![Unimed](/assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/unimed.png)
+![Unimed](/assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/unimed.png)
 
 :O
 
@@ -149,10 +149,10 @@ leva para casa. Em casa ele instala o Wireshark em seu PC e abre os
 arquivos `.pcap`. Olha que bonito!
 
 Capturando no servidor e copiando para o notebook: 
-![PCAP](/assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/pcap.png) 
+![PCAP](/assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/pcap.png) 
 
 Abrindo no Wireshark:
-![Wireshark](/assets/post_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/wireshark1.png) 
+![Wireshark](/assets/posts_assets/2016-01-11-aplicativos-sem-criptografia.md_assets/wireshark1.png) 
 
 ## Como se proteger?
 
