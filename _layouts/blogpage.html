@@ -28,7 +28,8 @@
             color: #000;
             opacity: 1;
             font-weight: 500;
-            min-height: 50em;
+            height: 60em;
+            overflow: auto;
             margin-bottom: 3em;
         }
 
@@ -91,7 +92,7 @@
             var disqus_config = function () {
                 this.page.url = "{{ post.url }}"; // Replace PAGE_URL with your page's canonical URL variable
                 this.page.identifier =
-                "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
             };
 
             (function () { // DON'T EDIT BELOW THIS LINE
