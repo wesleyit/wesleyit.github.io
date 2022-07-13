@@ -13,7 +13,7 @@ tags: [apps, networking, tcpdump, wireshark]
 comments: true
 ---
 
-# Segurança em redes sem fio
+# Aplicativos móveis sem criptografia
 
 Quando os primeiros sites com transações eletrônicas surgiram na Internet,
 houve uma certa resistência até que as pessoas dessem seu voto de 
