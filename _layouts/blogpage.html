@@ -68,6 +68,10 @@
         div.article_paper img {
             max-width: 100%;
         }
+
+        p.timestamp {
+            font-weight: 900;
+        }
     </style>
 </head>
 
@@ -82,8 +86,13 @@
 
     <div class="article_paper">
         {{ content }}
+        {% if page.date %}
         <hr>
+        <p class="timestamp">Escrito em {{ page.date | date_to_string }} por Wesley Rodrigues</p>
+        {% endif %}
+
         {% if page.comments %}
+        <hr>
         <div id="disqus_thread"></div>
         <script>
             /**

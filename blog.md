@@ -14,8 +14,8 @@ layout: blogpage
         <div class="blog_entry_text">
           <h3>{{ post.title }}</h3>
           <p class="description">{{ post.description }}</p>
-          <p><strong>Escrito em:</strong> {{ post.date }}</p>
-          <p><strong>Tags:</strong> 
+          <p><strong>Escrito em: </strong> {{ post.date | date_to_string }}</p>
+          <p><strong>Tags: </strong> 
           {% for t in post.tags %}
           {{ t }}, 
           {% endfor %}

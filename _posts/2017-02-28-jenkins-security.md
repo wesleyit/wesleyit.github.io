@@ -1,5 +1,5 @@
 ---
-title:  Seu Jenkins está seguro?
+title:  Seu Jenkins e seu Docker estão seguros?
 description: >-
     Usar o Jenkins já não é nenhuma novidade. É comum vê-lo em uso até mesmo
     em projetos que não fazem integração contínua, funcionando como um executor
