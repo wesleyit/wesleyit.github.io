@@ -1,6 +1,6 @@
 # Site settings
 title: Wesley Rodrigues da Silva
-subtitle: My personal site
+subtitle: My personal website
 email: wesley.it@gmail.com
 description: This is my personal website.
 baseurl: ""
@@ -8,4 +8,4 @@ url: "http://www.wesleyrodrigues.com.br"
 
 twitter_username: wesleyit
 github_username:  wesleyit
-
+linkedin_username:  wesleyit

@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Hello! I am Wesley :D</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <style>
+        div.article_paper {
+            max-width: 80em;
+            margin: 5em auto;
+            background-color: #fffefa;
+            color: #000;
+            font-weight: 500;
+            padding: 5em;
+            border: 0.5px solid #ccc;
+            opacity: 1;
+        }
+
+        li.blog_entry {
+            margin: 0;
+            padding: 0;
+            width: 30em;
+            border: 0.5px solid #ccc;
+            display: inline-block;
+            background-color: #fff;
+            color: #000;
+            opacity: 1;
+            font-weight: 500;
+            min-height: 50em;
+            margin-bottom: 3em;
+        }
+
+        li.blog_entry h3 {
+            text-transform: uppercase;
+            font-size: 1.5em;
+            text-align: center;
+            width: 100%;
+            color: #333;
+            vertical-align: middle;
+        }
+
+        li.blog_entry a:hover {
+            color: #333;
+            opacity: 1;
+            font-weight: 700;
+        }
+
+        li.blog_entry img {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            border-radius: 0%;
+        }
+
+        li.blog_entry div.blog_entry_text {
+            padding: 2em;
+        }
+
+        li.blog_entry p.description {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" style="background-color: rgba(0,0,0,255)">
+        <div class="logo">
+            <a href="/">Homepage</a> | <a href="/blog">Blog Posts</a>
+        </div>
+    </header>
+
+    <div class="article_paper">
+        {{ content }}
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="copyright">
+            <h3>Social Networks:</h3>
+            <ul class="icons">
+                <li><a target="_blank" href="https://github.com/wesleyit?tab=repositories" class="icon fa-github"><span
+                            class="label">Github</span></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/wesleyit/" class="icon fa-linkedin"><span
+                            class="label">Linkedin</span></a></li>
+                <li><a target="_blank" href="https://twitter.com/wesleyit" class="icon fa-twitter"><span
+                            class="label">Twitter</span></a></li>
+            </ul>
+            <p>As opiniões aqui expressas são exclusivamente minhas e não expressam as visões ou opiniões dos meus
+                empregadores. <br />
+                Opinions expressed here are solely my own and do not express the views or opinions of my
+                employers.<br />
+                &copy; Wesley Rodrigues da Silva. All rights reserved. Design: <a
+                    href="https://templated.co">TEMPLATED</a>.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/assets/js/jquery.scrollex.min.js"></script>
+    <script src="/assets/js/skel.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-16460833-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+
+</body>
+
+</html>
