@@ -9,13 +9,18 @@
     <style>
         div.article_paper {
             max-width: 80em;
-            margin: 5em auto;
+            margin: 4em auto;
             background-color: #fffefa;
             color: #000;
             font-weight: 500;
             padding: 5em;
             border: 0.5px solid #ccc;
             opacity: 1;
+        }
+
+        div.article_paper ul.posts_list {
+            margin: 0;
+            padding: 0;
         }
 
         li.blog_entry {
@@ -31,6 +36,24 @@
             height: 60em;
             overflow: auto;
             margin-bottom: 3em;
+        }
+
+        @media screen and (max-width: 500px) {
+            li.blog_entry {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                margin: 0;
+            }
+
+            div.article_paper {
+                width: 100%;
+                padding: 0.6em;
+            }
+
+            div.article_paper h1 {
+                text-align: center;
+            }
         }
 
         li.blog_entry h3 {

@@ -6,7 +6,7 @@ layout: blogpage
 
 # Blog Posts
 
-<ul>
+<ul class="posts_list">
   {% for post in site.posts %}
     <li class="blog_entry">
       <a href="{{ post.url }}">
