@@ -14,7 +14,7 @@ layout: homepage
 			<div class="flex flex-2">
 				<div class="col col1">
 					<div class="image round fit">
-						<a href="generic.html" class="link"><img src="/images/pic01.jpg" alt="" /></a>
+						<img src="/images/pic01.jpg" alt="" />
 					</div>
 				</div>
 				<div class="col col2">
@@ -62,7 +62,7 @@ layout: homepage
 				</div>
 				<div class="col col1 first">
 					<div class="image round fit">
-						<a href="generic.html" class="link"><img src="/images/pic02.jpg" alt="" /></a>
+						<img src="/images/pic02.jpg" alt="" />
 					</div>
 				</div>
 			</div>
