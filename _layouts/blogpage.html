@@ -2,36 +2,58 @@
 layout: default
 ---
 
-<div class="article_paper">
-    {{ content }}
-    {% if page.date %}
-    <hr>
-    <p class="timestamp">Escrito em {{ page.date | date_to_string }} por Wesley Rodrigues</p>
-    {% endif %}
+<!-- Two -->
+<section id="two" class="wrapper style3">
+    <div class="inner"></div>
+</section>
 
-    {% if page.comments %}
-    <hr>
-    <div id="disqus_thread"></div>
-    <script>
-        /**
-         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+<!-- Three -->
+<section id="three" class="wrapper style2">
+    <div class="inner">
 
-        var disqus_config = function () {
-            this.page.url = "{{ post.url }}"; // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier =
-                "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
+        <div>
+            <div class="box">
+                <div class="image fit">
+                    <img src="images/pic03.jpg" alt="" />
+                </div>
+                <div class="content blogpost">
+                    <header class="align-center">
+                        <h2>{{ page.title }}</h2>
+                        {% if page.date %}
+                        <p class="timestamp121212"></p>Escrito em {{ page.date | date_to_string }} por Wesley
+                        Rodrigues</p>
+                        {% endif %}
+                    </header>
+                    <hr />
+                    {{ content }}
+                </div>
+            </div>
+        </div>
 
-        (function () { // DON'T EDIT BELOW THIS LINE
-            var d = document,
-                s = d.createElement('script');
-            s.src = 'https://wesley-rodrigues.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-            Disqus.</a></noscript>
-    {% endif %}
-</div>
+        {% if page.comments %}
+        <hr>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+            var disqus_config = function () {
+                this.page.url = "{{ post.url }}"; // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier =
+                    "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://wesley-rodrigues.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+                Disqus.</a></noscript>
+        {% endif %}
+    </div>
+</section>
