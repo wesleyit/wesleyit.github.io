@@ -7,12 +7,6 @@ layout: default
 <!-- Two -->
 <section id="two" class="wrapper style3">
   <div class="inner">
-    <header class="align-center">
-      <br /><br /><br /><br />
-      <h2>Blog Posts</h2>
-      <p>Artigos técnicos com discussões, dicas, tutoriais e pesquisas.<br />
-        Technical articles with discussions, tips, tutorials and research.</p>
-    </header>
   </div>
 </section>
 
@@ -34,7 +28,7 @@ layout: default
             <hr />
             <p>{{ post.description }}</p>
             <div class="align-center">
-              <a href="{{ post.url }}" class="button alt">Ler o artigo | Read the post</a>
+              <a href="{{ post.url }}" class="button alt">Ler</a>
             </div>
           </div>
         </div>

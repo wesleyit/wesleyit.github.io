@@ -4,48 +4,12 @@ permalink: /
 layout: homepage
 ---
 
-<!-- One -->
-<section id="one" class="wrapper style2">
-	<div class="inner">
-		<div>
-			<div class="box">
-				<div class="image fit">
-					<img src="images/pic01.jpg" alt="" id="main" />
-				</div>
-				<div class="content">
-					<header class="align-center">
-						<h2>Security Cloud Solutions Architect</h2>
-					</header>
-					<hr />
-					<p>Eu sei que o cargo tem um nome longo e estranho para quem não é da área,
-						mas o que eu faço é fácil de entender: eu ajudo os clientes que querem
-						criar soluções de TI modernas a pensarem na segurança da informação.
-					</p>
-					<p>Estudo sobre as principais técnicas utilizadas por hackers e aprendo com
-						pesquisas recentes as melhores formas de proteger sistemas computacionais,
-						e ajudo CISOs a criarem uma estratégia de segurança para a nuvem.
-					</p>
-					<p>I know my role has a long and strange name for those who are not from IT area,
-						but what I do is easy to understand: I help customers who want to
-						create modern IT solutions to think in information security aspects.
-					</p>
-					<p>
-						I study on the main techniques used by hackers and I also learn from
-						recent research the best ways to protect computer systems,
-						and help CISOs to create a security strategy for their cloud environments.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Two -->
 <section id="two" class="wrapper style3">
 	<div class="inner">
 		<header class="align-center">
-			<h2>Habilidades | Skills</h2>
-			<p>Temas que estudo e pratico no trabalho</p>
+			<h2>Áreas de Pesquisa</h2>
+			<strong><i>(Research Fields)</i></strong>
+			<br/>
 		</header>
 		<hr />
 		<div id="flexgrid">
@@ -109,8 +73,7 @@ layout: homepage
 				<header>
 					<h4>Academic Research</h4>
 				</header>
-				<p>Participei de grupos de pesquisa no passado, fui professor universitário e continuo pesquisando por
-					conta própria atualmente</p>
+				<p>Participei de grupos de pesquisa no passado, fui professor universitário e continuo pesquisando como mestrando do Instituto de Pesquisas Tecnológicas de SP</p>
 			</div>
 		</div>
 	</div>
